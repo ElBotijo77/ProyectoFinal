@@ -1,0 +1,39 @@
+# --- Java / Maven ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+HELP.md
+
+# --- Android / Gradle ---
+build/
+.gradle/
+local.properties
+*.apk
+*.aab
+captures/
+.externalNativeBuild/
+.cxx/
+
+# --- Node ---
+node_modules/
+dist/
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Secretos ---
+.env
+.env.*
+!.env.example
+application-local.yml

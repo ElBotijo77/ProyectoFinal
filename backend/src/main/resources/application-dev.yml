@@ -1,0 +1,17 @@
+# Perfil de desarrollo: muestra el SQL generado por Hibernate y sus parámetros
+spring:
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.orm.jdbc.bind: trace
+    org.flywaydb: info
+
+management:
+  endpoint:
+    health:
+      show-details: always
